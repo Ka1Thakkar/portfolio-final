@@ -44,7 +44,7 @@ const Contact = () => {
             <div className=" grid grid-flow-row gap-y-1">
                     {socials.map((social, key) => (
                         <div className="flex items-center text-gray-800 text-2xl lg:text-3xl gap-5" key={key}>
-                            <Link href={social.link} target="_blank">
+                            <Link href={social.link} target="">
                                 <div>
                                     <social.icon />
                                 </div>

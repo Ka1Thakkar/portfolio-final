@@ -47,7 +47,7 @@ const Reviews: NextPage = () => {
               {/* use object-cover + fill since we don't know the height and width of the parent */}
               <div className="bg-white rounded-xl md:w-full p-5 shadow-md shadow-gray-300 gap-5 flex flex-col lg:flex-row" key={key}>
                 <Image alt="website image" src={project.image} width={500} height={500} quality={100} className="shadow-md shadow-gray-300 rounded-xl w-full lg:w-1/2" />
-                <div className="text-center flex flex-col justify-between">
+                <div className="text-center flex flex-col justify-around">
                   <div>
                     <h1 className="text-xl font-black pt-5 text-orange-600">{project.name}</h1>
                     <p className="font-medium pt-2">{project.description}</p>

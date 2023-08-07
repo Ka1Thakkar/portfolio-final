@@ -56,7 +56,9 @@ export default function Homescreen() {
           <div className={paris.className}><h1 className='text-5xl sm:text-7xl md:text-5xl lg:text-7xl 2xl:text-8xl py-2'>Kavan Thakkar</h1></div>
           <p className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>I am a Full Stack Developer and a Designer,</p>
           <p className='text-base text-black py-2 lg:pt-5 lg:pb-5 font-semibold'>Full stack developer and a third year student at Birla Institute of Technology and Science, Pilani. Let's connect!</p>
+          <Link href={"https://drive.google.com/file/d/1uMAB9NJXrExu2TmQ7hwGDfO4usC06-iJ/view"}>
           <button className='text-black border-4 bg-textgreen md:bg-textgreen/0 border-textgreen md:hover:bg-textgreen p-1 md:py-2 md:px-5 rounded-xl md:rounded-full font-medium md:font-bold transition-all ease-in-out'>Resume {"->"}</button>
+          </Link>
         </div>
       </div>
     </section>
