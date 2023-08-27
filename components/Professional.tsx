@@ -8,24 +8,34 @@ const satisfy = Pacifico({weight:['400'],subsets:['latin']})
 const Professional = () => {
     const experiences = [
         [
-            "Feb 2023 - Present",
-            "FRONT-END DEV TEAM LEAD",
+            "Dec 2022 - Present",
+            "FRONT-END DEV TEAM LEAD & CORE TEAM MEMBER",
             "Google Developer Student Club, BITS Pilani Chapter",
         ],
         [
-            "December 2022 - Present",
-            "CORE TEAM MEMBER",
-            "Google Developer Student Club, BITS Pilani Chapter",
+            "August 2023 - Present",
+            "TECH TEAM MEMBER",
+            "Society for Student Mess Services (SSMS), BITS Pilani"
         ],
+        // [
+        //     "December 2022 - Present",
+        //     "CORE TEAM MEMBER",
+        //     "Google Developer Student Club, BITS Pilani Chapter",
+        // ],
         [
             "May 2023 - July 2023",
             "MACHINE LEARNING, REASEARCH INTERN",
             "Bhaskaracharya National Institute for Space Applications and Geo-informatics"
         ],
         [
-            "NOW",
+            "June 2023 - Present",
             "FREELANCER AND STUDY",
             "Front-end developer, UI/UX design.",
+        ],
+        [
+            "June 2023 - Present",
+            "TECH TEAM LEAD",
+            "Kalamvansh, BITS Pilani",
         ]
     ]
     const education = [
@@ -62,9 +72,9 @@ const Professional = () => {
 
     return (
         <section id="professional" className="min-h-screen w-full bg-bggray flex flex-col justify-center md:px-0 py-16">
-            <div className="flex flex-col md:flex-row justify-around xl:justify-center gap-5">
-                <div className="lg:w-6/12 md:w-5/12 w-full bg-white rounded-xl px-5 py-10 shadow-md shadow-gray-500 flex flex-col justify-center">
-                    <h1 className="font-black text-3xl md:text-4xl text-textblue pb-5">EXPERIENCES</h1>
+            <div className="flex flex-col md:flex-row justify-around xl:justify-center gap-5 items-center">
+                <div className="lg:w-6/12 md:w-5/12 w-full bg-white rounded-xl px-5 py-10 shadow-md shadow-gray-500 flex flex-col justify-center md:overflow-y-auto md:h-[80vh]">
+                    <h1 className="font-black text-3xl md:text-4xl text-textblue pb-5 md:pt-20">EXPERIENCES</h1>
                     <div className="flex flex-col gap-5">
                         {experiences.map((experience, key)=>(
                             <div key={key} className="bg-gray-200/90 rounded-xl p-5">
