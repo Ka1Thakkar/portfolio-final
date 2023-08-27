@@ -4,8 +4,8 @@ import Carousel from "./Carousel";
 import image1 from '@/public/assets/pictures/websites/2023-08-05 16_45_35-ScienoMath - Brave.png'
 import image2 from '@/public/assets/pictures/websites/2023-08-05 17_00_24-Americana Restaurant - Las Vegas, NV - Brave.png'
 import image3 from '@/public/assets/pictures/websites/2023-08-05 17_05_42-Ka1 Portfolio - Brave.png'
+import image4 from '@/public/assets/pictures/websites/SSMS_Mess_Menu.png'
 import Link from "next/link";
-
 
 const Reviews: NextPage = () => {
   const projects = [
@@ -30,6 +30,13 @@ const Reviews: NextPage = () => {
         code:"https://github.com/Ka1Thakkar/portfolio-2",
         link:"https://portfolio-2-ka1thakkar.vercel.app/",
     },
+    {
+      image : image4,
+      name : "Mess Menu SSMS, BITS Pilani",
+      description : "This website enables students of BITS PIlani to see the mess menu for the week.",
+      code : "https://github.com/Ka1Thakkar/bppc-mess-menu",
+      link : "https://bppc-mess-menu.vercel.app/",
+    }
 ]
   return (
     <div

@@ -71,9 +71,9 @@ const Professional = () => {
     ]
 
     return (
-        <section id="professional" className="min-h-screen w-full bg-bggray flex flex-col justify-center md:px-0 py-16">
-            <div className="flex flex-col md:flex-row justify-around xl:justify-center gap-5 items-center">
-                <div className="lg:w-6/12 md:w-5/12 w-full bg-white rounded-xl px-5 py-10 shadow-md shadow-gray-500 flex flex-col justify-center md:overflow-y-auto md:h-[80vh]">
+        <section id="professional" className="min-h-screen w-full bg-bggray flex flex-col justify-center md:px-0 py-16 overflow-x-hidden">
+            <div className="flex flex-col md:flex-row justify-around xl:justify-center gap-5 items-center px-5">
+                <div className="lg:w-6/12 md:w-5/12 w-full bg-white rounded-xl px-5 py-10 shadow-md shadow-gray-500 flex flex-col justify-center md:overflow-y-auto md:h-[70vh]">
                     <h1 className="font-black text-3xl md:text-4xl text-textblue pb-5 md:pt-20">EXPERIENCES</h1>
                     <div className="flex flex-col gap-5">
                         {experiences.map((experience, key)=>(
@@ -85,7 +85,7 @@ const Professional = () => {
                         ))}
                     </div>
                 </div>
-                <div className="md:w-5/12 flex flex-col gap-5 justify-center">
+                <div className="md:w-5/12 flex flex-col gap-5 justify-center w-[100vw]">
                     <div className="px-5 py-5">
                         <h1 className="font-black text-3xl md:text-4xl text-black pb-5 underline underline-offset-8 decoration-4 decoration-textblue">EDUCATION</h1>
                         <div className="flex flex-col gap-5">
